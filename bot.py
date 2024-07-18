@@ -42,8 +42,8 @@ MONGODB_URI = ""  # Set your MongoDB connection string here
 client = pymongo.MongoClient(MONGODB_URI)
 db = client["wormgpt"]
 collection = db["allowed_users"]
-allowed_users = ["K_HACKER_ANONYMOUS", ""]
-owners = ["K_HACKER_ANONYMOUS", ""]
+allowed_users = ["@Riyal_Nobi", ""]
+owners = ["@riyal_nobi", ""]
 
 for user in collection.find({}):
     allowed_users.append(user["telegram_username"])
