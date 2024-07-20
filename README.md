@@ -2,7 +2,7 @@
 
 # Nobino wormgpt Telegram Bot
 
-[![nobino](https://github.com/Itx-me-king/Nobinowormgptai/blob/main/image1.jpg)
+![nobino](https://github.com/Itx-me-king/Nobinowormgptai/blob/main/image1.jpg)
 
 This is a Telegram bot that lets you chat with the [NOBINO AI](https://t.me/nobinowormgpt_bot)
 
@@ -15,7 +15,7 @@ chat with powerfull dark ai from telegram freely
 
 Just DMMMMM.... [here](https://t.me/nobinowormgpt_bot).
 
-[![nobita](https://github.com/Itx-me-king/Nobinowormgptai/blob/main/image2.jpg)
+![nobita](https://github.com/Itx-me-king/Nobinowormgptai/blob/main/image2.jpg)
 
 
 
