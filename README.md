@@ -15,7 +15,7 @@ chat with powerfull dark ai from telegram freely
 
 Just DMMMMM.... [here](https://t.me/nobinowormgpt_bot).
 
-# screenshots
+[![nobita](https://github.com/Itx-me-king/Nobinowormgptai/blob/main/image2.jpg)
 
 
 
