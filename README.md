@@ -2,7 +2,7 @@
 
 # Nobino wormgpt Telegram Bot
 
-[![CleanShot 2022-12-02 at 16 08 27](https://user-images.githubusercontent.com/463317/205404516-56ea908e-dd31-4c53-acb7-15f9f6ed379f.gif)](https://twitter.com/altryne/status/1598822052760195072)
+[![nobino](https://github.com/Itx-me-king/Nobinowormgptai/blob/main/image1.jpg)
 
 This is a Telegram bot that lets you chat with the [NOBINO AI](https://t.me/nobinowormgpt_bot)
 
