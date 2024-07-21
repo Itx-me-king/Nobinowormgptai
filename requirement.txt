@@ -4,3 +4,4 @@ openai
 python-telegram-bot
 requests
 python-dotenv
+python -m venv wormgpt-env
