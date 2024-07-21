@@ -5,3 +5,5 @@ python-telegram-bot
 requests
 python-dotenv
 python -m venv wormgpt-env
+'Install dependencies'
+pip install --upgrade pip
