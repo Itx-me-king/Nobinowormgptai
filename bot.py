@@ -34,7 +34,7 @@ API_TOKEN = '7401875465:AAHoetLWlNFRSliGU7VQaLtH-pXaDlXpLGU'
 API_ID = '24771953'
 API_HASH = '2dd99aa9f140d0eacb46368d1dd0994b'
 # OpenAI API Key
-openai.api_key = ""
+openai.api_key = "sk-proj-PPnyhG59SsqsjfCR1nhhT3BlbkFJ7gP1iskxVp35Kg39Fg93"
 #Only owner id
 NOBITA = "1965898154"
 # MongoDB setup
