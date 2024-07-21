@@ -40,3 +40,9 @@ jobs:
       run: |
         source wormgpt-env/bin/activate
         python bot.py
+
+- name: Install dependencies
+  run: |
+    python -m venv wormgpt-env
+    source wormgpt-env/bin/activate
+    pip install -r config/requirements.txt
