@@ -367,4 +367,4 @@ async def on_pm_s(client: Client, message: Message):
         fwded_mesg = await message.forward(chat_id=DEVIL, disable_notification=True)
         
 print(f"NOBINO Worm Gpt BOT Is Active Now âœ…")      
-app.run()b
+app.run()
