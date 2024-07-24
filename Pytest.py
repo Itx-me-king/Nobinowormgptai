@@ -1,7 +1,7 @@
-# pytest 
+# test_example.py
 
 import pytest
-from your_module import your_function
+from bot.py import process_data # Import your functions here
 
 def test_example_function():
     # Arrange
@@ -15,4 +15,12 @@ def test_example_function():
     assert result == expected_output
 
 def test_another_function():
-    #
+    # Arrange
+    another_input = "another input"
+    another_expected_output = "another expected output"
+    
+    # Act
+    another_result = another_function(another_input)
+    
+    # Assert
+    assert another_result == another_expected_output
