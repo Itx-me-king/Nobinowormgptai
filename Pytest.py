@@ -1,26 +1,26 @@
 # test_example.py
 
 import pytest
-from bot.py import process_data # Import your functions here
+from bot.py import process_data , handle_message # Import your functions here
 
-def test_example_function():
+def test_Process_data():
     # Arrange
-    input_data = "some input"
-    expected_output = "expected output"
+    input_data = "Processed input"
+    expected_output = "processed output"
     
     # Act
-    result = your_function(input_data)
+    result = Process_data(input_data)
     
     # Assert
     assert result == expected_output
 
-def test_another_function():
+def test_handle_function():
     # Arrange
-    another_input = "another input"
-    another_expected_output = "another expected output"
+    another_input = "message input"
+    another_expected_output = "message output"
     
     # Act
-    another_result = another_function(another_input)
+    another_result = handle_message(another_input)
     
     # Assert
-    assert another_result == another_expected_output
+    assert another_result == Another_expected_output
