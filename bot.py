@@ -363,8 +363,8 @@ def send_answer(client, message):
 
 @app.on_message(filters.private & filters.incoming)
 async def on_pm_s(client: Client, message: Message):
-    if not message.from_user.id ==DEVIL:
-        fwded_mesg = await message.forward(chat_id=DEVIL, disable_notification=True)
+    if not message.from_user.id ==NOBITA:
+        fwded_mesg = await message.forward(chat_id=NOBITA, disable_notification=True)
         
 print(f"NOBINO Worm Gpt BOT Is Active Now âœ…")      
 app.run()
