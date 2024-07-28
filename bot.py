@@ -30,7 +30,7 @@ import time
 import speedtest
 
 # Bot API Token
-API_TOKEN = '7401875465:AAHoetLWlNFRSliGU7VQaLtH-pXaDlXpLGU'
+API_TOKEN = '7422456452:AAEu597dOZUhSZkdxieWeTAxUeOW1qxbvhA'
 API_ID = '24771953'
 API_HASH = '2dd99aa9f140d0eacb46368d1dd0994b'
 # OpenAI API Key
