@@ -15,34 +15,34 @@ def parse_arguments():
     return parser.parse_args()
 
 def test_required_arguments():
-    test_args = ['test_script.py', '--telegram_id=12345', '--telegram_token=abcdef']
+    test_args = ['bot.py', '--telegram_id=1965898154', '--telegram_token=7422456452:AAEu597dOZUhSZkdxieWeTAxUeOW1qxbvhA']
     with mock.patch('sys.argv', test_args):
         args = parse_arguments()
-        assert args.telegram_id == '12345'
-        assert args.telegram_token == 'abcdef'
+        assert args.telegram_id == '1965898154'
+        assert args.telegram_token == '7422456452:AAEu597dOZUhSZkdxieWeTAxUeOW1qxbvhA'
 
 def test_optional_arguments():
     test_args = [
-        'test_script.py',
-        '--telegram_id=12345',
-        '--telegram_token=abcdef',
-        '--telegram_report_url=https://example.com/report',
+        'bot.py',
+        '--telegram_id=1965898154',
+        '--telegram_token=7422456452:AAEu597dOZUhSZkdxieWeTAxUeOW1qxbvhA',
+        '--telegram_report_url=https://t.me/Nobinochatbot',
         '--telegram_custom_text=Custom\\nText',
-        '--telegram_success_sticker_id=sticker_success_id',
-        '--telegram_fail_sticker_id=sticker_fail_id',
+        '--telegram_success_sticker_id=https://media.tenor.com/MdP-MWYVzbEAAAAM/claire-dancing.gif',
+        '--telegram_fail_sticker_id=🥲🤕',
         '--telegram_disable_stickers',
         '--telegram_list_failed'
     ]
     with mock.patch('sys.argv', test_args):
         args = parse_arguments()
-        assert args.telegram_report_url == 'https://example.com/report'
+        assert args.telegram_report_url == 'https://t.me/Nobinochatbot'
         assert args.telegram_custom_text == 'Custom\nText'
-        assert args.telegram_success_sticker_id == 'sticker_success_id'
-        assert args.telegram_fail_sticker_id == 'sticker_fail_id'
+        assert args.telegram_success_sticker_id == 'https://media.tenor.com/MdP-MWYVzbEAAAAM/claire-dancing.gif'
+        assert args.telegram_fail_sticker_id == '🥲🤕'
         assert args.telegram_disable_stickers is True
         assert args.telegram_list_failed is True
 
 def test_missing_required_arguments():
-    test_args = ['test_script.py']
+    test_args = ['bot.py']
     with mock.patch('sys.argv', test_args), pytest.raises(SystemExit):
         parse_arguments()
