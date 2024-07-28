@@ -11,3 +11,4 @@ torch>=1.8.1
 transformers>=4.8.2
 numpy>=1.21.1
 requests>=2.26.0
+pip install pytest-telegram
