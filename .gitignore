@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 .DS_Store
 .env
+pip install -r config/requirements.txt
