@@ -38,7 +38,7 @@ openai.api_key = "sk-proj-PPnyhG59SsqsjfCR1nhhT3BlbkFJ7gP1iskxVp35Kg39Fg93"
 #Only owner id
 NOBITA = "1965898154"
 # MongoDB setup
-MONGODB_URI = ""  # Set your MongoDB connection string here
+MONGODB_URI ="mongodb+srv://balloonflame7:jatin@#0212@nobino-worm-gpt-ai.pnhvasg.mongodb.net/?retryWrites=true&w=majority&appName=Nobino-worm-gpt-ai"  # Set your MongoDB connection string here
 client = pymongo.MongoClient(MONGODB_URI)
 db = client["wormgpt"]
 collection = db["allowed_users"]
