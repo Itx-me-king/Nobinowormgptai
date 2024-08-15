@@ -37,3 +37,11 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+
+- name: Run tests
+  run: |
+    pytest -v
+
+
+- name: List directory
+  run: ls -R
