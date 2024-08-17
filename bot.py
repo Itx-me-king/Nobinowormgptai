@@ -30,15 +30,15 @@ import time
 import speedtest
 
 # Bot API Token
-API_TOKEN = '7422456452:AAEu597dOZUhSZkdxieWeTAxUeOW1qxbvhA'
+API_TOKEN = ''
 API_ID = '24771953'
-API_HASH = '2dd99aa9f140d0eacb46368d1dd0994b'
+API_HASH = ''
 # OpenAI API Key
-openai.api_key = "sk-proj-PPnyhG59SsqsjfCR1nhhT3BlbkFJ7gP1iskxVp35Kg39Fg93"
+openai.api_key = ""
 #Only owner id
 NOBITA = "1965898154"
 # MongoDB setup
-MONGODB_URI ="mongodb+srv://balloonflame7:jatin@#0212@nobino-worm-gpt-ai.pnhvasg.mongodb.net/?retryWrites=true&w=majority&appName=Nobino-worm-gpt-ai"  # Set your MongoDB connection string here
+MONGODB_URI =""  # Set your MongoDB connection string here
 client = pymongo.MongoClient(MONGODB_URI)
 db = client["wormgpt"]
 collection = db["allowed_users"]
